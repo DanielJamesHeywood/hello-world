@@ -1,5 +1,7 @@
 #pragma once
 
+#include "Length.h"
+
 typedef const char* String;
 
-unsigned long stringLength(String string);
+Length stringLength(String string);
