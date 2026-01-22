@@ -1,5 +1,7 @@
 #pragma once
 
-long print(const char* string);
+#include "String.h"
 
-long writeString(int fileDescriptor, const char* string);
+long print(String string);
+
+long writeString(int fileDescriptor, String string);

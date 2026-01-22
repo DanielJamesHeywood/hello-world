@@ -3,12 +3,10 @@
 #include "system/fileDescriptors.h"
 #include "system/systemCalls.h"
 
-#include "string.h"
-
-long print(const char* string) {
+long print(String string) {
     return writeString(standardOutput, string);
 }
 
-long writeString(int fileDescriptor, const char* string) {
+long writeString(int fileDescriptor, String string) {
     return write(fileDescriptor, string, stringLength(string));
 }
