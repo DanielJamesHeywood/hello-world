@@ -2,6 +2,5 @@
 #include "standardLibrary/inputOutput.h"
 
 ExitStatus main(int argumentCount, String argumentVector[]) {
-    print("Hello, World!\n");
-    return success;
+    return print("Hello, World!\n") ? success : failure;
 }
