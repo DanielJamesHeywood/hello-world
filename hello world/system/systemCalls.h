@@ -1,3 +1,3 @@
 #pragma once
 
-long write(int fileDescriptor, const void *buffer, unsigned long numberOfBytes);
+long write(int fileDescriptor, const void* buffer, unsigned long numberOfBytes);
