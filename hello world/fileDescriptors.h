@@ -1,0 +1,2 @@
+
+#define standardOutput 1
