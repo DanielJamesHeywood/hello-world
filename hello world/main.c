@@ -1,5 +1,4 @@
-#include "standardLibrary/system/exitStatuses.h"
-
+#include "standardLibrary/exitStatuses.h"
 #include "standardLibrary/inputOutput.h"
 
 int main(int argumentCount, const char* argumentVector[]) {
