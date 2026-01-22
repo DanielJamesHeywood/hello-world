@@ -1,7 +1,7 @@
-#include "system/exitStatuses.h"
-#include "system/fileDescriptors.h"
+#include "standardLibrary/system/exitStatuses.h"
+#include "standardLibrary/system/fileDescriptors.h"
 
-#include "inputOutput.h"
+#include "standardLibrary/inputOutput.h"
 
 int main(int argumentCount, const char* argumentVector[]) {
     writeString(standardOutput, "Hello, World!\n");
