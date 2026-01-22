@@ -1,0 +1,2 @@
+
+#define success 0
