@@ -4,6 +4,6 @@
 #include "system/systemCalls.h"
 
 bool print(String string) {
-    Length length = stringLength(string);
+    Length length = lengthOfString(string);
     return write(standardOutput, string, length) == length;
 }

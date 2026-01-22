@@ -4,4 +4,4 @@
 
 typedef const char* String;
 
-Length stringLength(String string);
+Length lengthOfString(String string);
