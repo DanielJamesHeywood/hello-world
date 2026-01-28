@@ -1,5 +1,7 @@
 #pragma once
 
-#include "system/exitStatuses.h"
+#define success 0
+
+#define failure 1
 
 typedef int ExitStatus;

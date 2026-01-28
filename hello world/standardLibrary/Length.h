@@ -1,3 +1,5 @@
 #pragma once
 
-typedef unsigned long Length;
+#include "system/Size.h"
+
+typedef Size Length;

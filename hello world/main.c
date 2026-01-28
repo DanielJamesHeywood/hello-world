@@ -1,5 +1,5 @@
-#include "standardLibrary/ArgumentCount.h"
-#include "standardLibrary/ExitStatus.h"
+#include "standardLibrary/system/ArgumentCount.h"
+#include "standardLibrary/system/ExitStatus.h"
 #include "standardLibrary/inputOutput.h"
 
 ExitStatus main(ArgumentCount argumentCount, String argumentVector[]) {

@@ -1,3 +1,8 @@
 #pragma once
 
-long write(int fileDescriptor, const void* buffer, unsigned long numberOfBytes);
+#include "Buffer.h"
+#include "FileDescriptor.h"
+#include "SignedSize.h"
+#include "Size.h"
+
+SignedSize write(FileDescriptor fileDescriptor, Buffer buffer, Size numberOfBytes);
